@@ -7,7 +7,8 @@ public class Main {
         Double num1 = sc.nextDouble();
         Double num2 = sc.nextDouble();
 
-        Singleton result = new Singleton().getInstance();
+        Singleton result = Singleton.getInstance();
+
 
         System.out.println(result.Calculator(num1,num2));
     }
