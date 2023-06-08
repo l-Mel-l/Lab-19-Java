@@ -6,7 +6,8 @@ public class Main {
         System.out.println("Введите ваши данные:");
         Double num1 = sc.nextDouble();
         Double num2 = sc.nextDouble();
-
+        if (num2 == 0){System.out.println("На ноль делить нельзя");
+        return;}
         Singleton result = Singleton.getInstance();
 
 
